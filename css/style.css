@@ -83,7 +83,7 @@ body {
     color: inherit;
 }
 .hero-button:hover {
-    background: #404BBF;
+    background: #404BBF;}
 
 /* what we are */
 
@@ -142,6 +142,7 @@ body {
 /* portfolio filter */
 
 .radio-filter {
+    font-family: inherit;
     font-weight: 500;
     line-height: 1.5;
     text-align: center;
@@ -153,7 +154,7 @@ body {
 .radio-filter:hover,
 .radio-filter:focus {
     color: var(--white-text-color);
-    background-color: #404BBF;;
+    background-color: #404BBF;
 }
 
 /* our projects */
