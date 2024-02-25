@@ -1,0 +1,192 @@
+:root {
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --modal-overlay: rgba(46, 47, 66, 0.4);
+    --hero-background: rgba(46, 47, 66, 0.7);
+    --white-background: #FFFFFF;
+    --modal-background: #FCFCFC;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--text);
+    background-color: var(--modal-background);
+}
+
+a {
+    text-decoration-line: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+header {
+    background-color: var(--white-background);
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--dark);
+}
+
+.logo .web {
+    color: var(--primary-brand);
+}
+
+.navigation .link {
+    font-weight: 500;        
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.navigation .link:hover {
+    color: var(--primary-brand);
+}
+
+.navigation .link:active {
+    color: var(--pressed-state);
+    text-decoration: underline;
+}
+
+.contacts .link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+    font-style: normal;
+}
+
+.contacts .link:hover {
+    color: var(--pressed-state);
+    font-style: normal;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white-background);
+}
+
+.order-button {
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: var(--primary-brand);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-background);
+}
+
+.order-button:hover {
+    background-color: var(--pressed-state);
+}
+
+.trns-text {
+    color: transparent;
+}
+
+.features-list h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.features-list .text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team {
+    background-color: var(--light)
+}
+
+.team-card {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background-color: var(--white-background);
+}
+
+.member-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--dark);
+}
+
+.member-position {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--dark);
+}
+
+.portfolio .title  {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--dark);
+}
+
+.portfolio-card {
+    background-color: var(--white-background);
+}
+
+.product-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.product-type {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+footer {
+    background-color: var(--dark);
+}
+
+footer .logo {
+    color: var(--light);
+}
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light);
+}
